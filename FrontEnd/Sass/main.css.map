@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACL,WAAW,EAAE,oBAAoB;;ACDrC,SAAS;EACL,gBAAgB,EAAE,OAAO;EAGjB,kDAAa;IACT,KAAK,EAAE,KAAK;EAEhB,2CAAM;IACF,KAAK,EAAE,KAAK",
+"sources": ["Base/_reset.scss","Layout/_header.scss"],
+"names": [],
+"file": "main.css"
+}

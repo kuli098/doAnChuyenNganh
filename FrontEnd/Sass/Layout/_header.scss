@@ -1,0 +1,18 @@
+.myHeader{
+    background-color: #6AD2EA;
+    .header__Content{
+        .myNavbar{
+            .headerSearch{
+                width: 500px;
+            }
+            .header__gioHang{
+                .nav-item{
+                    a:hover{
+                        color: $color_red_0;
+                        transition: all 0.5s;
+                    }
+                }
+            }
+        }
+    }
+}

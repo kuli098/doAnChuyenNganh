@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Chi Tiết Sản Phẩm</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0&appId=622819194797848&autoLogAppEvents=1"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Link CSS FILE -->
+    <link rel="stylesheet" href="../Css/index.css">
+    <link rel="stylesheet" href="../Css/headerMenu.css">
+    <link rel="stylesheet" href="../Css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../Css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../Css/navTabLet.css">
+
+    <!-- link font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="myHeader">
+        <div class="header__Content container">
+            <nav class="myNavbar navbar navbar-expand-lg">
+                <a class="navbar-brand" href="./index.html">Logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="form-inline my-2 my-lg-0 ml-auto">
+                        <input class="form-control mr-sm-2 headerSearch" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <div class="button">
+                            <button class="btn btn__red my-2 my-sm-0" type="submit">Search</button>
+                        </div>
+                    </form>
+                    <ul class="navbar-nav ml-auto header__gioHang">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gioHang.html"><i class="fa fa-shopping-cart"></i> Giỏ Hàng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../View/logIn.html"><i class="fa fa-user"></i> Đăng Nhập</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0">
+                        <a href="../View/logIn.html"></a>
+                        <button class="btn btn-danger my-2 my-sm-0" type="submit">Sign In</button>
+                        <button class="btn btn-danger my-2 my-sm-0 ml-2" type="submit">Sign Up</button>
+                    </form> -->
+                </div>
+            </nav>
+        </div>
+        <div id="menu_area" class="menu-area header_menu">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-light navbar-expand-lg mainmenu">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navDienThoai" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-mobile"></i></span> ĐIỆN THOẠI</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navDienThoai">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navDienThoai" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navDienThoai">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                                <!-- <li class="dropdown">
+                                                    <a class="dropdown-toggle" href="#" id="navDienThoai"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">Dropdown3</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navDienThoai">
+                                                        <li><a href="#">Action</a></li>
+                                                        <li><a href="#">Another action</a></li>
+                                                        <li><a href="#">Something else here</a></li>
+                                                    </ul>
+                                                </li> -->
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navLapTop" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-laptop"></i></span> LAPTOP</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navLapTop">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navLapTop" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navLapTop">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navTabLet" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-tablet-alt"></i></span> TABLET</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navTabLet">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navTabLet" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navTabLet">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navPhuKien" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-headphones"></i></span> PHỤ KIỆN</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navPhuKien">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navPhuKien" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navPhuKien">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navPhuKien" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-headphones"></i></span> PHỤ KIỆN</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navPhuKien">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navPhuKien" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navPhuKien">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navKhuyenMai" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-gift"></i></span> KHUYẾN MÃI</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navKhuyenMai">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navKhuyenMai" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navKhuyenMai">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <section class="myCarousel container py-3">
+        <h3>Samsung Galaxy S10+ (512GB)</h3>
+        <hr />
+        <div class="carousel__content row">
+            <div class="carousel__left col-md-4">
+                <div id="carouselChiTiet" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="#"><img src="../Images/dt1.png" class="d-block w-100" alt="..."></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="../Images/dt1.png" class="d-block w-100" alt="..."></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="../Images/dt1.png" class="d-block w-100" alt="..."></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img src="../Images/dt1.png" class="d-block w-100" alt="..."></a>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselChiTiet" role="button" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselChiTiet" role="button" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel__mid col-md-5">
+                <div class="carousel__info">
+                    <h4 class="info__tenSanPham">Samsung Galaxy S10+ (512GB)</h4>
+                    <p><strong>Nhà Sản xuất:</strong> Samsung</p>
+                    <p><strong>Tình Trạng:</strong> Còn hàng</p>
+                    <p><strong>Bảo Hành:</strong> 12 tháng</p>
+                    <p class="price1"><strong>Giá Bán:</strong> 17.000.000 <sup>đ</sup></p>
+                    <div class="info__quaTang">
+                        <p><strong>Quà Tặng:</strong></p>
+                    </div>
+                    <div class="info__mota">
+                        <p>Tuyệt tác của thiết kế với màn hình Infinity-O độc đáo lần đầu tiên đã xuất hiện. Không đơn
+                            thuần là một chiếc điện thoại, Samsung S10 còn là đỉnh cao của công nghệ.</p>
+                    </div>
+                </div>
+                <div class="button">
+                    <!-- <button class="btn btn__red_white m-auto my-sm-0" type="submit">Đặt Hàng</button> -->
+                    <a href="#" class="btn btn__red_white m-auto my-sm-0">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+            <div class="carousel__right col-md-3">
+                <img src="../Images/CamKet.jpg" alt="Cam Kết" class="w-100">
+            </div>
+        </div>
+    </section>
+    <!-- Carousel -->
+
+    <!-- ProductInfo -->
+    <section class="productInfo container my-3">
+        <div class="ProductInfo__content">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="thongSo" data-toggle="tab" href="#nav_thongSo" role="tab"
+                        aria-controls="nav-home" aria-selected="true">Thông Số Kỹ Thuật</a>
+                    <a class="nav-item nav-link" id="moTa" data-toggle="tab" href="#nav_moTa" role="tab"
+                        aria-controls="nav-profile" aria-selected="false">Mô Tả Sản Phẩm</a>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active py-3 productInfo__thongSo" id="nav_thongSo" role="tabpanel" aria-labelledby="thongSo">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <td>Màn Hình</td>
+                                <td>Dynamic AMOLED, 5.8", Full HD+</td>
+                            </tr>
+                            <tr>
+                                <td>CPU</td>
+                                <td>Exynos 9820 (8 nm)</td>
+                            </tr>
+                            <tr>
+                                <td>RAM</td>
+                                <td>6 GB</td>
+                            </tr>
+                            <tr>
+                                <td>Camera sau</td>
+                                <td>2 camera</td>
+                            </tr>
+                            <tr>
+                                <td>Camera trước</td>
+                                <td>10 MP</td>
+                            </tr>
+                            <tr>
+                                <td>Bộ nhớ trong</td>
+                                <td>128 GB</td>
+                            </tr>
+                            <tr>
+                                <td>Thẻ nhớ ngoài</td>
+                                <td>MicroSD, hỗ trợ tối đa 1 TB</td>
+                            </tr>
+                            <tr>
+                                <td>Dung lượng pin</td>
+                                <td>3100 mAh</td>
+                            </tr>
+                            <tr>
+                                <td>Hệ điều hành</td>
+                                <td>Android 9.0 Pie</td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="tab-pane fade py-3 productInfo__moTa" id="nav_moTa" role="tabpanel" aria-labelledby="moTa">
+                    <h5 class="moTa__tieuDe">Tuyệt tác của thiết kế với màn hình Infinity-O độc đáo lần đầu tiên đã xuất
+                        hiện. Không đơn thuần là một chiếc điện thoại, Samsung S10 còn là đỉnh cao của công nghệ.</h5>
+                    <p class="moTa__text">Samsung Galaxy S10e cũ là phiên bản giá rẻ nhất của bộ ba Galaxy S10, tuy
+                        có mức giá dễ
+                        chịu hơn những thiết bị này không hề tỏ ra kém cạnh với những người anh em. Mức giá hấp dẫn
+                        cùng với cấu hình khủng chính là cách smartphone này ghi điểm.</p>
+                    <h5 class="moTa__tieuDe">Ngoại hình Galaxy S10e cũ</h5>
+                    <p class="moTa__text">
+                        Khác với các model Galaxy S10 khác, Galaxy S10e cũ không có màn hình vô cực cạnh cong. Màn hình
+                        của điện thoại cũng là màn LCD thay cho tấm nền OLED đắt đỏ. Tuy vậy nhưng thiết kế của Galaxy
+                        S10e cũ vẫn rất cao cấp và có phần độc đáo hơn các Galaxy S10 còn lại.
+                    </p>
+                    <p class="moTa__hinhAnh">
+                        <img src="../Images/danh-gia-samsung-galaxy-s10e-xtmobile.jpg" alt="">
+                    </p>
+                    <p class="moTa__text">
+                        Các cạnh smartphone viền mỏng đều và cân xứng hơn hẳn người tiền nhiệm Galaxy S9. Khác biệt nữa
+                        của của chiếc Galaxy này so với những người anh em cùng ra mắt chính là tỷ lệ màn hình. Galaxy
+                        S10e cũ không mang tỷ lệ màn hình 19:9 như Galaxy S10 mà sử dụng tỷ lệ 18,5: 9 tương tự Galaxy
+                        S9. Tuy nhiên thực tế thì khác biệt này phải người nào tinh ý mới có thể nhận ra được.
+                    </p>
+                    <p class="moTa__hinhAnh">
+                        <img src="../Images/danh-gia-samsung-galaxy-s10e-xtmobile1.jpg" alt="">
+                    </p>
+                    <p class="moTa__text">
+                        Tất nhiên Galaxy S10e cũ cũng được trang bị cụm camera kép ở phía sau. Tuy nhiên, vị trí của cảm
+                        biến vân tay đã thay đổi. Lần này Samsung đặt cảm biến vân tay của Samsung S10e cũ ở cạnh bên.
+                        Thiết kế thông minh này khiến Galaxy S10e trông giống như có cảm biến vân tay siêu âm trong màn
+                        hình. Thay đổi này cũng giúp mặt sau của máy trông liền lạc hơn.
+                    </p>
+                    <p class="moTa__text">
+                        Ở mặt trước, bạn sẽ thấy màn hình nốt ruồi kiểu mới cực kỳ mới lạ, bắt mắt. Đây chính là thế hệ
+                        màn hình Infinity-O giúp bạn tối ưu không gian hiển thị và đem lại trải nghiệm màn hình hoàn hảo
+                        nhất.
+                    </p>
+                    <h5 class="moTa__tieuDe">
+                        Cấu hình Galaxy S10e cũ vẫn rất mạnh mẽ
+                    </h5>
+                    <p class="moTa__text">
+                        Vì là phiên bản giá rẻ nên Samsung quyết định cắt giảm một số thông số của Galaxy S10e cũ. Thay
+                        vì màn hình OLED, Galaxy S10 đi kèm với màn hình LCD 5,8 inch và viên pin 3100mAh.
+                    </p>
+                    <p class="moTa__hinhAnh">
+                        <img src="../Images/benchmark-cua-samsung-galaxy-s10-plus-va-s10-lite-xtmobile.jpg" alt="">
+                    </p>
+                    <p class="moTa__text">
+                        Những thông số cấu hình khác vẫn được giữ nguyên. Galaxy S10e cũ cũng được trang bị cấu hình
+                        mạnh mẽ nhất năm 2019 với chip Snapdragon 855 hoặc Exynos 9820. Ghép nối với chipset này là RAM
+                        8GB. Bộ nhớ lưu trữ khủng 128GB với tùy chọn mở rộng bộ nhớ lên tới 400GB. Với bộ nhớ như trên,
+                        khả năng đa nhiệm và sức mạnh của Galaxy S10e cũ cũng rất ấn tượng.
+                    </p>
+                    <p class="moTa__text">
+                        Về trang bị camera: camera phía sau của Galaxy S10e cũ có camera kép với đèn flash LED 2 tông
+                        màu giúp bạn chụp ảnh thiếu sáng tốt hơn trong mọi điều kiện.
+                    </p>
+                    <p class="moTa__hinhAnh">
+                        <img src="../Images/galaxy-s10e-co-camera-kep-xtmobile.jpg" alt="">
+                    </p>
+                    <h5 class="moTa__tieuDe">
+                        Những tính năng cao cấp trên Galaxy S10e cũ
+                    </h5>
+                    <p class="moTa__text">Tuy Galaxy S10e cũ là một phiên bản rút gọn nhưng Samsung vẫn đem đến những
+                        tính năng tuyệt vời không thua kém chiếc Galaxy S10 và Galaxy S10 Plus. Về khả năng sạc, bạn sẽ
+                        vẫn có tính năng sạc không dây, sạc nhanh tiên tiến của Qualcomm.</p>
+                    <p class="moTa__hinhAnh">
+                        <img src="../Images/galaxy-s10e-co-sac-nguoc-khong-day-xtmobile.jpg" alt="">
+                    </p>
+                    <p class="moTa__text">
+                        Về độ bền của máy, Galaxy S10e cũ cũng có khả năng kháng bụi, nước đạt chuẩn IP68 cao nhất của
+                        flagship. Đây là một tính năng quen thuộc luôn có mặt trên smartphone cao cấp nhà Samsung.
+                    </p>
+                    <p class="moTa__text">
+                        Về tính năng bảo mật, bạn có thể nhầm tưởng smartphone này có vân tay siêu âm trong màn hình khi
+                        không tìm thấy cảm biến vân tay. Thực tế thì cảm biến vân tay của Galaxy S10e cũ được đưa sang
+                        cạnh bên một cách tinh tế.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End ProductInfo -->
+
+    <!-- End Carousel -->
+
+    <!-- Footer -->
+    <footer class="myFooter">
+        <div class="footer__content container">
+            <div class="row">
+                <div class="footer__info col-md-4">
+                    <h5>CÔNG TY TNHH CÔNG NGHỆ ABC</h5>
+                    <P>Địa chỉ: 475A Điện Biên Phủ, Phường 25, Quận Bình Thạnh, Tp.HCM
+                        Điện thoại: 1800 1234 (miễn phí)
+                        Email:nhan120298@gmail.com</P>
+                    <span>Hotline: 1800 6975</span>
+                    <h5>THỜI GIAN LÀM VIỆC: 08:30 - 21:30 TỪ THỨ 2 ĐẾN CHỦ NHẬT</h5>
+                    <img src="../Images/boCongThuong.png" alt="">
+                </div>
+                <div class="footer__map col-md-4">
+                    <h5>ĐỊA CHỈ CỬA HÀNG</h5>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1257424104197!2d106.71223795128559!3d10.801680261640778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528a501281b1f%3A0x6f43044e459b3132!2zNDc1YSDEkGnhu4duIEJpw6puIFBo4bunLCBQaMaw4budbmcgMjUsIELDrG5oIFRo4bqhbmgsIEjhu5MgQ2jDrSBNaW5oIDcwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1571671070503!5m2!1svi!2s"
+                        width="350" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="footer__fanpage col-md-4">
+                    <h5>FANPAGE fACEBOOK</h5>
+                    <div id="fb-root"></div>
+                    <div class="fb-page" data-href="https://www.facebook.com/gearvnhcm/" data-tabs="timeline"
+                        data-width="" data-height="350px" data-small-header="true" data-adapt-container-width="true"
+                        data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/gearvnhcm/" class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/gearvnhcm/">Gearvn</a></blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="../js/owl.carousel.min.js"></script>
+    <script>
+        (function ($) {
+            $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+                if (!$(this).next().hasClass('show')) {
+                    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+                }
+                var $subMenu = $(this).next(".dropdown-menu");
+                $subMenu.toggleClass('show');
+
+                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                    $('.dropdown-submenu .show').removeClass("show");
+                });
+
+                return false;
+            });
+        })(jQuery)
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

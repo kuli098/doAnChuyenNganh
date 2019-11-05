@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Giỏ Hàng</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v4.0&appId=622819194797848&autoLogAppEvents=1"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Link CSS FILE -->
+    <link rel="stylesheet" href="../Css/index.css">
+    <link rel="stylesheet" href="../Css/headerMenu.css">
+    <link rel="stylesheet" href="../Css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../Css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../Css/navTabLet.css">
+
+    <!-- link font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=vietnamese"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="myHeader">
+        <div class="header__Content container">
+            <nav class="myNavbar navbar navbar-expand-lg">
+                <a class="navbar-brand" href="./index.html">Logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="form-inline my-2 my-lg-0 ml-auto">
+                        <input class="form-control mr-sm-2 headerSearch" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <div class="button">
+                            <button class="btn btn__red my-2 my-sm-0" type="submit">Search</button>
+                        </div>
+                    </form>
+                    <ul class="navbar-nav ml-auto header__gioHang">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i> Giỏ Hàng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../View/logIn.html"><i class="fa fa-user"></i> Đăng Nhập</a>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0">
+                        <a href="../View/logIn.html"></a>
+                        <button class="btn btn-danger my-2 my-sm-0" type="submit">Sign In</button>
+                        <button class="btn btn-danger my-2 my-sm-0 ml-2" type="submit">Sign Up</button>
+                    </form> -->
+                </div>
+            </nav>
+        </div>
+        <div id="menu_area" class="menu-area header_menu">
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-light navbar-expand-lg mainmenu">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navDienThoai" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-mobile"></i></span> ĐIỆN THOẠI</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navDienThoai">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navDienThoai" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navDienThoai">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                                <!-- <li class="dropdown">
+                                                    <a class="dropdown-toggle" href="#" id="navDienThoai"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">Dropdown3</a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navDienThoai">
+                                                        <li><a href="#">Action</a></li>
+                                                        <li><a href="#">Another action</a></li>
+                                                        <li><a href="#">Something else here</a></li>
+                                                    </ul>
+                                                </li> -->
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navLapTop" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-laptop"></i></span> LAPTOP</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navLapTop">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navLapTop" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navLapTop">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navTabLet" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-tablet-alt"></i></span> TABLET</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navTabLet">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navTabLet" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navTabLet">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navPhuKien" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-headphones"></i></span> PHỤ KIỆN</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navPhuKien">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navPhuKien" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navPhuKien">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navPhuKien" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-headphones"></i></span> PHỤ KIỆN</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navPhuKien">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navPhuKien" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navPhuKien">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a class="dropdown-toggle" href="#" id="navKhuyenMai" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span><i
+                                                class="fa fa-gift"></i></span> KHUYẾN MÃI</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navKhuyenMai">
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li class="dropdown">
+                                            <a class="dropdown-toggle" href="#" id="navKhuyenMai" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">4</a>
+                                            <ul class="dropdown-menu" aria-labelledby="navKhuyenMai">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Giỏ Hàng -->
+    <section class="gioHang container pb-3">
+        <div class="gioHang__content">
+            <h3 class="text-center mb-4 pt-4">Giỏ Hàng</h3>
+            <div class="gioHang__table">
+                <table class="table table-bordered text-center">
+                    <thead>
+                        <tr>
+                            <!-- <th scope="col">#</th> -->
+                            <th scope="col">Hình ảnh Sản Phẩm</th>
+                            <th scope="col">Tên Sản Phẩm</th>
+                            <th scope="col">Số lượng</th>
+                            <th scope="col">Giá Tiền</th>
+                            <th scope="col">Chức năng</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <!-- <th scope="row">1</th> -->
+                            <td scope="row" class="gioHang__img"><img src="../Images/dt1.png" alt=""></td>
+                            <td class="font-weight-bold"><a href="#">Samsung Galaxy S10+ (512GB)</a></td>
+                            <td>
+                                <!-- <input class="input-group m-auto" type="number" min="1" name="txtSoLuong" value="" /> -->
+                                <input type="number" class="form-control m-auto" min="1" name="txtSoLuong">
+                            </td>
+                            <td><strong>17.990.000<sup>đ</sup></strong></td>
+                            <td>
+                                <a href="#"><i class="fa fa-trash-alt"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="4">Tổng tiền:</th>
+                            <td><strong>17.990.000<sup>đ</sup></strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="gioHang__button row">
+                <div class="m-auto button">
+                    <!-- <button type="submit" class="btn btn-danger">Thanh Toán</button> -->
+                    <a href="./thanhToan.html" class="btn btn-danger">Thanh Toán</a>
+                    <button type="submit" class="btn btn-danger">Cập Nhật Giỏ Hàng</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Giỏ Hàng -->
+
+    <!-- Footer -->
+    <footer class="myFooter">
+        <div class="footer__content container">
+            <div class="row">
+                <div class="footer__info col-md-4">
+                    <h5>CÔNG TY TNHH CÔNG NGHỆ ABC</h5>
+                    <P>Địa chỉ: 475A Điện Biên Phủ, Phường 25, Quận Bình Thạnh, Tp.HCM
+                        Điện thoại: 1800 1234 (miễn phí)
+                        Email:nhan120298@gmail.com</P>
+                    <span>Hotline: 1800 6975</span>
+                    <h5>THỜI GIAN LÀM VIỆC: 08:30 - 21:30 TỪ THỨ 2 ĐẾN CHỦ NHẬT</h5>
+                    <img src="../Images/boCongThuong.png" alt="">
+                </div>
+                <div class="footer__map col-md-4">
+                    <h5>ĐỊA CHỈ CỬA HÀNG</h5>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1257424104197!2d106.71223795128559!3d10.801680261640778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528a501281b1f%3A0x6f43044e459b3132!2zNDc1YSDEkGnhu4duIEJpw6puIFBo4bunLCBQaMaw4budbmcgMjUsIELDrG5oIFRo4bqhbmgsIEjhu5MgQ2jDrSBNaW5oIDcwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1571671070503!5m2!1svi!2s"
+                        width="350" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+                <div class="footer__fanpage col-md-4">
+                    <h5>FANPAGE fACEBOOK</h5>
+                    <div id="fb-root"></div>
+                    <div class="fb-page" data-href="https://www.facebook.com/gearvnhcm/" data-tabs="timeline"
+                        data-width="" data-height="350px" data-small-header="true" data-adapt-container-width="true"
+                        data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/gearvnhcm/" class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/gearvnhcm/">Gearvn</a></blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="../js/owl.carousel.min.js"></script>
+    <script>
+        (function ($) {
+            $('.dropdown-menu a.dropdown-toggle').on('click', function (e) {
+                if (!$(this).next().hasClass('show')) {
+                    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+                }
+                var $subMenu = $(this).next(".dropdown-menu");
+                $subMenu.toggleClass('show');
+
+                $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function (e) {
+                    $('.dropdown-submenu .show').removeClass("show");
+                });
+
+                return false;
+            });
+        })(jQuery)
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

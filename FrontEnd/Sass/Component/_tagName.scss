@@ -1,0 +1,12 @@
+.price{
+    @include tagName ($fs-14, $color-red-0, $fw-2);
+}
+.price1{
+    @include tagName ($fs-18 + 2, $color-red-0, $fw-2);
+}
+.spanPrice{
+    font-size: $fs-12;
+    text-decoration: line-through;
+    margin-left: 5px;
+    color: $color-black-0;
+}

@@ -1,0 +1,18 @@
+.gioHang{
+    background-color: white;
+    .gioHang__content{
+        .gioHang__table{
+            a{
+                text-decoration: none;
+            }
+            .gioHang__img{
+                img{
+                    width: 100px;
+                }
+            }
+            .form-control{
+                width: 60%;
+            }
+        }
+    }
+}

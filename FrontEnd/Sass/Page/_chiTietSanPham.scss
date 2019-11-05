@@ -1,0 +1,40 @@
+.myCarousel{
+    background-color: white;
+    h3{
+        @include text($color_red_0,$fs-18,$fw-2);
+        margin: 0;
+    }
+    .carousel__content{
+        .carousel__left{
+            // border-left: 1px solid $bg-color-0;
+            .carousel-control-prev, .carousel-control-next{
+                i{
+                    @include text($color_red_0,$fs-24 + 3,$fw-bold-0)
+                }
+            }
+        }
+        .carousel__right{
+            @include reponsive('medium'){
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+.productInfo{
+    background-color: white;
+    .ProductInfo__content{
+        .productInfo__moTa{
+            text-align: justify;
+            .moTa__tieuDe{
+                margin-bottom: $mg-8;
+            }
+            .moTa__hinhAnh{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

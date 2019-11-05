@@ -1,0 +1,11 @@
+html body {
+  font-family: 'Roboto', sans-serif; }
+
+.myHeader {
+  background-color: #026db5; }
+  .myHeader .header__Content .myNavbar .headerSearch {
+    width: 500px; }
+  .myHeader .header__Content .myNavbar button {
+    color: white; }
+
+/*# sourceMappingURL=main.css.map */
