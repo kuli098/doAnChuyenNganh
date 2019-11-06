@@ -5,4 +5,7 @@
 html body{
     font-family: 'Roboto', sans-serif;
     background-color: #f3f3f3;
+    .dropdown-toggle::after {
+        display:none;
+    }
 }

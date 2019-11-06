@@ -1,0 +1,67 @@
+.menuSanPham{
+    .menu__content{
+        .menu__item{
+            border: 1px solid #eee;
+            // margin-left: -1px;
+            // margin-bottom: -1px;
+            a{
+                background-color: #ffffff;
+                img{
+                    width: 100%;
+                }
+                @include reponsive('small'){
+                    img{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.allDienThoai{
+    .allDienThoai__content{
+        .card{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            img{
+                transform: translateY(0.5rem);
+                transition: all 0.6s;
+            }
+            .allDienThoai__name{
+                a{
+                    text-decoration: none;
+                    color: $color-black-0;
+                }
+            }
+            .allDienThoai__price{
+                color: $color_red_0;
+                font-size: $fs-18;
+            }
+            .allDienThoai__info{
+                ul{
+                    list-style: none;
+                    li{
+                        @include text($color_gray_0,$fs-12 + 1,$fw-3);
+                        label{
+                            width: 40px;
+                        }
+
+                    }
+                }
+            }
+            &:hover{
+                box-shadow: 0px 0px 10px 2px rgba(155, 154, 154, 0.698);
+                transition: all 0.5s;
+                a{
+                    color: $color-blue-1;
+                    transition: all 0.3s;
+                }
+                img{
+                    transform: translateY(0);
+                }
+            }
+        }
+    }
+}
