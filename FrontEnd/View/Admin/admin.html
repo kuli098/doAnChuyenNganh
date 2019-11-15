@@ -156,7 +156,10 @@
                   >
                     <i class="fa fa-user"></i>Tài Khoản
                   </a>
-                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="user">
+                  <div
+                    class="dropdown-menu dropdown-menu-right"
+                    aria-labelledby="user"
+                  >
                     <a href="#" class="dropdown-item my-1">
                       Thông tin tài khoản
                     </a>
@@ -262,6 +265,102 @@
                 ></ul>
               </nav>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <header class="head-form mb-0">
+            <h2 id="header-title">Thêm Sản Phẩm</h2>
+          </header>
+
+          <!-- Modal Header -->
+          <!-- 	<div class="modal-header">
+            <h4 class="modal-title" id="modal-title">Modal Heading</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div> -->
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <form role="form">
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"
+                      ></span>
+                  </div>
+                  <input
+                    name="msp"
+                    id="msp"
+                    class="form-control input-sm"
+                    placeholder="Mã sản phẩm"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"
+                      ></span>
+                  </div>
+                  <input
+                    name="tensp"
+                    id="tensp"
+                    class="form-control input-sm"
+                    placeholder="Tên sản phẩm"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"
+                      ></span>
+                  </div>
+                  <input
+                    name="..."
+                    id="..."
+                    class="form-control input-sm"
+                    placeholder="..."
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"
+                      ><i class="fa fa-briefcase"></i
+                    ></span>
+                  </div>
+                  <select class="form-control" id="">
+                    <option>Chọn...</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- Modal footer -->
+          <div class="modal-footer" id="modal-footer">
+            <button id="btnThemSanPham" type="button" class="btn btn-success">
+              Thêm Sản Phẩm
+            </button>
+            <button id="btnCapNhat" type="button" class="btn btn-success">
+              Cập nhật
+            </button>
+            <button
+              id="btnDong"
+              type="button"
+              class="btn btn-danger"
+              data-dismiss="modal"
+            >
+              Đóng
+            </button>
           </div>
         </div>
       </div>
